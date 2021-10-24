@@ -9,7 +9,7 @@ View a complete video demonstration of the application: [Employee Tracker Demo](
 ![Social-Network-API](/img/User.png)
 
 
-![Social-Network-API](/img/Thougts.png)
+![Social-Network-API](/img/Thoughts.png)
 
 
 ![Social-Network-API](/img/reactions.png)

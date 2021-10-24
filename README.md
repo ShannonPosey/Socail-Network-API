@@ -5,16 +5,17 @@ This is a CMS app for developers, and inspiring developers can create and post b
 
 ### Demonstration
 View a complete video demonstration of the application: [Employee Tracker Demo]()
-![Social-Network-API](/img/)
+
+![Social-Network-API](/img/User.png)
 
 
-![Social-Network-API](/img/)
+![Social-Network-API](/img/Thougts.png)
 
 
-![Social-Network-API](/img/)
+![Social-Network-API](/img/reactions.png)
 
 
-![Social-Network-API](/img/)
+![Social-Network-API](/img/Friends.png)
 
 ## Table of Contents 
 

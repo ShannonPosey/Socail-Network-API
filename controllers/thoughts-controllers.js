@@ -17,6 +17,7 @@ thoughtsControllers = {
                 res.status(400).json(err);
             });
     },
+    // get thought by id
     getThoughtsById({ params }, res) {
         Thoughts.findOne({ _id: params.id })
             .populate({
@@ -36,6 +37,7 @@ thoughtsControllers = {
                 res.status(400).json(err);
             });
     },
+    // create thought
     createThoughts({ body }, res) {
         Thoughts.create(body)
             .then(({ username, _id }) => {
@@ -57,6 +59,7 @@ thoughtsControllers = {
                 res.status(400).json(err);
             });
     },
+    // update thoughts
     updateThoughts({ body, params }, res) {
         Thoughts.findOneAndUpdate({ _id: params.id }, body, { new: true, runValidators: true })
             .then(dbThoughtsData => {
@@ -71,6 +74,7 @@ thoughtsControllers = {
                 res.status(400).json(err)
             })
     },
+    // delete thoughts
     deleteThoughts({ params }, res) {
         Thoughts.findOneAndDelete({ _id: params.id })
             .then(({ username }) => {
@@ -93,6 +97,7 @@ thoughtsControllers = {
                 res.status(400).json(err);
             })
     },
+    // create reaction
     createReaction({ params, body }, res) {
         Thoughts.findOneAndUpdate(
             { _id: params.thoughtId },
@@ -112,6 +117,7 @@ thoughtsControllers = {
                 res.status(400).json(err);
             });
     },
+    // remove reaction
     removeReaction({ params }, res) {
         Thoughts.findOneAndUpdate(
             { _id: params.thoughtId },

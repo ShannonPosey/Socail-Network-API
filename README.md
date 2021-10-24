@@ -5,11 +5,9 @@ This is a CMS app for developers, and inspiring developers can create and post b
 
 ### Demonstration
 View a complete video demonstration of the application:[Employee Tracker Demo part 1](https://youtu.be/kMl4gNsCC14)<br/>
+![Employee Tracker Demo part 1](/img/Social-Network-API-pt1.gif)<br/>
 [Employee Tracker Demo part 2](https://youtu.be/8R0oe3AHGUo)<br/>
-
-![Employee Tracker Demo part 1](/img/Social-Network-pt1.gif)
 ![Employee Tracker Demo part 2](/img/Social-Network-pt2.gif)<br/>
-
 ![Social-Network-API](/img/User.png)
 <br/>
 

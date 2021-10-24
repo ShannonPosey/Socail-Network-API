@@ -30,6 +30,8 @@ What are the steps required to install your project?
 
 You will need to clone this project onto your local machine.
 
+`npm start`
+
 ## Usage
 
 Express.js <br/> Mongoose </br> Insomnia

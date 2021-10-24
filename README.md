@@ -19,13 +19,20 @@ View a complete video demonstration of the application: [Employee Tracker Demo](
 
 ## Table of Contents 
 
+* [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Questions](#questions)
 
+## Installation
+
+What are the steps required to install your project?
+
+You will need to clone this project onto your local machine.
+
 ## Usage
 
-Express.js <br/> Sequelize <br/> MySQL
+Express.js <br/> Mongoose </br> Insomnia
 
 
 ## Contributing
